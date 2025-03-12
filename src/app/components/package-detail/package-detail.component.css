@@ -1,0 +1,44 @@
+/* package-detail.component.css */
+.package-detail {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.package-detail h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.package-detail p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-name {
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.btn-book {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-book:hover {
+  background-color: #45a049;
+}

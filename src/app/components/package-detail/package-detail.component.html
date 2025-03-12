@@ -1,0 +1,12 @@
+<!-- package-detail.component.html -->
+<div *ngIf="selectedPackage" class="package-detail">
+    <h2>{{ selectedPackage.name }}</h2>
+    <p>{{ selectedPackage.description }}</p>
+  
+    <form #bookingForm="ngForm" class="booking-form">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required [(ngModel)]="customerName" class="input-name">
+      
+      <button type="submit" class="btn-book">Reservar</button>
+    </form>
+</div>

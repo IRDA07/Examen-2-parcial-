@@ -1,0 +1,9 @@
+/* styles.css o header.component.css */
+.header-text {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+  }
+  

@@ -1,0 +1,29 @@
+/* package-list.component.css */
+.package-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .package-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .btn-details {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-details:hover {
+    background-color: #45a049;
+  }
+  

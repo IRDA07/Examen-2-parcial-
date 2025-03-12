@@ -1,0 +1,5 @@
+<!-- package-list.component.html -->
+<div *ngFor="let package of packages" class="package-card">
+    <h3>{{ package.name }}</h3>
+    <button [routerLink]="['/package', package.id]" class="btn-details">Ver detalles</button>
+</div>
